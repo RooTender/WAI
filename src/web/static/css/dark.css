@@ -1,0 +1,63 @@
+body {
+    background-color: #282828;
+    transition: all 0.2s linear;
+}
+
+nav, footer, #dropdown-button #sub-menu {
+    background-color: #1C1C1C;
+}
+
+article {
+    background-color: #aeaeae;
+    color: #1C1C1C;
+    box-shadow: 0 10px 6px -6px #212121;
+}
+
+section {
+    color: #aeaeae;
+}
+
+hr {
+    border: 0.5px solid #212121;
+}
+
+textarea {
+    background-color: #E5E5E5;
+}
+
+#darkmode-toggle {
+    color: #FCA311 !important;
+}
+
+#logo, h1, section h2, .expandPostButton {
+    color: #E5E5E5;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active, .ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: #1C1C1C;
+    background-color: #282828;
+}
+
+.box {
+    background-color: #aeaeae;
+}
+
+.box * {
+    color: #1C1C1C;
+}
+
+.paging {
+    background-color: #282828;
+}
+
+.paging li a:hover {
+    background-color: #1C1C1C;
+}
+
+.gallery {
+    color: #aeaeae;
+}

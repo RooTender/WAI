@@ -1,0 +1,76 @@
+nav {
+    height: 10vw;
+}
+
+nav > * {
+    font-size: 5vw;
+}
+
+nav > a {
+    transform: translateY(-1vw);
+}
+
+#menu > a {
+    display: none;
+}
+
+#dropdown-button #sub-menu1,
+#dropdown-button #sub-menu2 {
+    background-color: unset !important;
+}
+
+.menu-open,
+.menu-close {
+    display: block;
+}
+
+    #menu {
+        height: 0%;
+        width: 100%;
+        background-color: rgba(0,0,0, 0.8);
+        transition: 0.5s;
+        margin: auto;
+        position: fixed;
+    }
+
+    #menu:target {
+        height: 100%;
+    }
+
+    #menu > ul,
+    #menu > a {
+        display: none;
+    }
+
+    #menu:target > ul,
+    #menu:target > a {
+        display: block;
+    }
+
+    .menu-close {
+        position: absolute;
+        color: #ffffff;
+        top: 1em;
+        right: 1em;
+    }
+
+    #menu ul li {
+        padding: 8px;
+    }
+
+    #menu ul li a,
+    #menu ul li a:visited {
+        font-size: 6vw;
+    }
+
+body > header {
+    padding-top: 10.5vw;
+}
+
+main {
+    margin: 5vw;
+}
+
+article {
+    padding: 1vw 2vw;
+}

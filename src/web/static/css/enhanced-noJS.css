@@ -1,0 +1,71 @@
+nav {
+    padding: 1em;
+}
+
+nav h1, nav ul {
+    margin: auto 1em;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 1em;
+    display: inline;
+}
+
+#logo {
+    margin: 0;
+    font-size: xx-large;
+}
+
+#sub-menu1, #sub-menu2 {
+    box-shadow: 0 2px 5px #000000;
+}
+
+#sub-menu1 li,
+#sub-menu2 li {
+    display: block;
+}
+
+#dropdown-button1 #sub-menu1,
+#dropdown-button2 #sub-menu2 {
+    display: none;
+    position: absolute;
+    background-color: #4D5382;
+}
+
+#dropdown-button1 #sub-menu1 {
+    transform: translate(126px, 15px);
+}
+
+#dropdown-button2 #sub-menu2 {
+    transform: translate(236px, 15px);
+}
+
+#dropdown-button1:hover #sub-menu1, 
+#dropdown-button2:hover #sub-menu2 {
+    display: block;
+}
+
+header {
+    margin: 4em;
+}
+
+body > header {
+    padding-top: 3em;
+}
+
+main {
+    margin: 1em 25%;
+}
+
+article {
+    padding: 1em 2em;
+}
+
+.elegant-checkboxes {
+    display: inline;
+}
+
+#tabs img {
+    margin: 1em auto;
+}

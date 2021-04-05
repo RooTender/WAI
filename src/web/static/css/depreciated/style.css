@@ -1,0 +1,60 @@
+/* === NAVIGATION === */
+nav {
+    height: 10vw;
+}
+
+nav > * {
+    font-size: 5vw;
+}
+
+nav > a {
+    transform: translateY(-1vw); /* font problem fix */
+}
+
+.menu > a {
+    display: none;
+}
+
+.menu-open,
+.menu-close {
+    display: block;
+}
+
+    /* == body of responsive menu == */
+    .menu {
+        height: 0%;
+        width: 100%;
+        background-color: rgba(0,0,0, 0.8);
+        transition: 0.5s;
+        margin: auto;
+        position: fixed;
+    }
+
+    .menu ul {
+        padding: 0;
+
+        /* center screen */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: relative;
+        text-align: center;
+
+        display: none; /* javaScript will modify this */
+    }
+
+    .menu-close {
+        position: absolute;
+        color: #ffffff;
+        top: 1em;
+        right: 1em;
+    }
+
+    .menu ul li {
+        padding: 8px;
+    }
+
+    .menu ul li a,
+    .menu ul li a:visited {
+        font-size: 6vw;
+    }
